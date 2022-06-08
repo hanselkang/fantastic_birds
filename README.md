@@ -20,7 +20,7 @@ My works
 * Outline Design
 * Odd One Out Activity to pick the animal which is not a bird
 * Transform Vector image(SVG) to JavaScript file to make Colouring Book App
-* Operating in Quiz to change each Colour when user clicks
+* Manage quiz activity to change each answer's colour when user clicks
 
 ## Technology
 ----------
@@ -28,7 +28,7 @@ My works
 * React
 * HTML
 * CSS
-* SVG
+* SVG data
 
 <div align="center">
 
