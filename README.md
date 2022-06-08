@@ -71,20 +71,6 @@ My works
   <br>
   <br>
   
-
-
-  
-
-  
-  
-  <img width="700" alt="Screenshot 2022-06-08 at 15 01 47" src="https://user-images.githubusercontent.com/43307207/172636413-131c1ee0-c577-43a8-bed8-d8823109ccc1.png">
-  
-Wireframe Design
-  
-  
-  <br>
-  <br>
-            
 </div>
 
 
