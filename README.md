@@ -17,7 +17,7 @@ Group Aims
 * Interact Design
 
 My works
-* Outline Design
+* Wireframe, Outline Design
 * Odd One Out Activity to pick the animal which is not a bird
 * Transform Vector image(SVG) to JavaScript file to make Colouring Book App
 * Manage quiz activity to change each answer's colour when user clicks
@@ -72,10 +72,11 @@ My works
 
   
 
-  Wireframe Design
+  
   
   <img width="700" alt="Screenshot 2022-06-08 at 15 01 47" src="https://user-images.githubusercontent.com/43307207/172636413-131c1ee0-c577-43a8-bed8-d8823109ccc1.png">
-
+  
+Wireframe Design
   
   
   <br>
@@ -174,3 +175,14 @@ const Palette = ({ setCurrentColor }) => {
 
  
 ```
+
+
+
+## Contributors
+-----------
+
+* [@emma-dougherty](https://github.com/emma-dougherty)
+* [@mwdfn](https://github.com/mwdfn)
+* [@sapphireflygon](https://github.com/sapphireflygon)
+
+
