@@ -1,7 +1,11 @@
 <div align="center">
   
+  <img width="500" alt="Screenshot 2022-06-08 at 14 58 11" src="https://user-images.githubusercontent.com/43307207/172636514-5e348d33-7d68-482d-8f1a-606d7a3457b3.png">
+
+  
+  
 # Children Educatioin App
-## Learn about Fantastic 6 Birds! (Group Project with 4 Members)
+## Learn about 6 Fantastic Birds! (Group Project with 4 Members)
 
 </div>
   
@@ -70,6 +74,9 @@ My works
 
   Wireframe Design
   
+  <img width="700" alt="Screenshot 2022-06-08 at 15 01 47" src="https://user-images.githubusercontent.com/43307207/172636413-131c1ee0-c577-43a8-bed8-d8823109ccc1.png">
+
+  
   
   <br>
   <br>
@@ -84,26 +91,86 @@ My works
 ```
 
 Your local machine terminal:
-- 
+- git clone https://github.com/hanselkang/fantastic_birds
+- npm install
+- npm start
 
 ```
 
-## Code for -
+## Code for Pallete in Colouring Book
 ----------
 
 ```
 
-placeholder
+const [fillColors, setFillColors] = useState(Array(30).fill("white"))
+const [currentColor, setCurrentColor] = useState('white')
+
+const paintColor = (event) => {
+        const newColors = [...fillColors]
+        newColors[event.target.id] = currentColor
+        return setFillColors(newColors)
+    }
+
+
+
+const Palette = ({ setCurrentColor }) => {
+
+    const colors = [
+        'WHITE', 'RED', 'BLUE', 'NAVY', 'OLIVE', 'GREEN', 'TEAL', 'LIME', 'YELLOW', 'ORANGE', 'CORAL', 'PINK', 'PURPLE', 'FUCHSIA', 'BROWN', 'MAROON', 'BLACK'
+    ]
+
+    const changeColor = (event) => {
+        return setCurrentColor(event.target.outerText)   
+    }
+    const changeColorPicker = (event) => {
+        return setCurrentColor(event.target.value)
+    }
+
+    
+
+    
+    return (
+        <div id="color-box">
+            <div onClick={changeColorPicker}>
+                <input id="color-input" type="color" name="head" />
+            </div>
+            {colors.map(color => {
+                return <div onClick={changeColor} style={{ backgroundColor: color, color: color }}>{color}</div>
+            })}
+        </div>)
+}
 
    
 ```
 
+## Arrays of background colours
 
-## Code for ...
+<img alt="array explain" src="https://user-images.githubusercontent.com/43307207/172636077-6443259c-e1c5-4dc5-92ae-70bef2ed6bd3.png">
+
+
+
+## Code for Showing Current Colour 
 ----------
 
 ```
 
-placeholder            
+<div id="current-color" style={{ background: currentColor }} ></div>
+
+
+```
+
+
+
+## Write codes inside SVG data
+----------
+
+```
+
+<path id="0" fill={fillColors[0]} onClick={paintColor} d="M396.702, ... "/>
+<path id="1" fill={fillColors[1]} onClick={paintColor} d="M498.795, ... "/>
+<path id="2" fill={fillColors[2]} onClick={paintColor} d="M577.513, ... "/>
+ ...
+<path id="29" fill={fillColors[29]} onClick={paintColor} d="M417.8, ... "/>      
+
  
 ```
