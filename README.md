@@ -10,7 +10,7 @@
 </div>
   
 ## Features
-----------
+
 Group Aims
 * Education App for Children Stage 1
 * 4 Activities
@@ -23,7 +23,7 @@ My works
 * Manage quiz activity to change each answer's colour when user clicks
 
 ## Technology
-----------
+
 * JavaScript 
 * React
 * HTML
@@ -86,7 +86,7 @@ Wireframe Design
 
 
 ## Deployment
-----------
+
 ### To deploy this project run
 
 ```
@@ -99,7 +99,7 @@ Your local machine terminal:
 ```
 
 ## Code for Pallete in Colouring Book
-----------
+
 
 ```
 
@@ -151,7 +151,7 @@ const Palette = ({ setCurrentColor }) => {
 
 
 ## Code for Showing Current Colour 
-----------
+
 
 ```
 
@@ -162,8 +162,8 @@ const Palette = ({ setCurrentColor }) => {
 
 
 
-## Write codes inside SVG data
-----------
+## Codes inside SVG data
+
 
 ```
 
@@ -179,7 +179,6 @@ const Palette = ({ setCurrentColor }) => {
 
 
 ## Contributors
------------
 
 * [@emma-dougherty](https://github.com/emma-dougherty)
 * [@mwdfn](https://github.com/mwdfn)
