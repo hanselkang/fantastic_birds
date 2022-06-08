@@ -33,7 +33,8 @@ My works
 <div align="center">
 
   
-![cards](https://user-images.githubusercontent.com/43307207/172615388-60942de9-518a-4ef0-bd66-c25af17ea5e0.gif)
+![cards2](https://user-images.githubusercontent.com/43307207/172644156-85297acf-3533-4ab9-83ed-8759d358d554.gif)
+
 
 
   Birds Information Card Demo
@@ -45,7 +46,8 @@ My works
   <br>
   
   
-![activity](https://user-images.githubusercontent.com/43307207/172615467-f99e0110-4bd1-4430-b9ec-37b985dd98f6.gif)
+![activity2](https://user-images.githubusercontent.com/43307207/172643822-0bf3a881-cb1c-4c60-904d-60751e0b1df6.gif)
+
 
   
   Activity Demo
@@ -57,10 +59,11 @@ My works
   <br>
   
 
-![colouringbook](https://user-images.githubusercontent.com/43307207/172615543-323836c9-2ee4-4218-bd83-edd60cdaebfc.gif)
+  ![colouringbook2](https://user-images.githubusercontent.com/43307207/172644584-0a117acd-a034-493f-a2ca-4a57be5b4210.gif)
 
 
-  Clouring Book Demo
+
+  Colouring Book Demo
   
   
   <br>
