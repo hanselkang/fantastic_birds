@@ -5,7 +5,7 @@
   
   
 # Children Educatioin App
-## Learn about 6 Fantastic Birds! (Group Project with 4 Members)
+## Learn about 6 Fantastic Birds! (4 Members' Group Project)
 
 </div>
   
